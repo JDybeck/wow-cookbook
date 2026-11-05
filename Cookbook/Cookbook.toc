@@ -1,0 +1,22 @@
+## Interface: 16001
+## Title: The Cookbook
+## Notes: Browse every profession recipe in WoW Forever: skill levels, reagents, sources and crafting math. /cookbook
+## Author: Jesper
+## Version: 1.1.0
+## SavedVariables: CookbookDB
+## IconTexture: Interface\Icons\INV_Misc_Book_11
+## AddonCompartmentFunc: Cookbook_OnAddonCompartmentClick
+## Category: Professions
+
+Core.lua
+Data\Recipes.lua
+
+Services\ItemService.lua
+Services\SkillService.lua
+Services\RecipeService.lua
+Services\TrainerScanner.lua
+
+UI\Widgets.lua
+UI\RecipeList.lua
+UI\RecipeDetail.lua
+UI\MainFrame.lua
